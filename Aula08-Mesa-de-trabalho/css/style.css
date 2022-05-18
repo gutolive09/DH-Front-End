@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+* {
+    
+    text-align: center; 
+    font-family: 'Roboto', sans-serif; 
+}
+body {
+    background-color: rgb(20, 19, 19);
+    margin: 30px;
+}
+
+.media-picture {
+    background-image: url(../img/maxresdefault.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    background-position: center; 
+    
+}
+
+p {
+    color: white;
+    line-height: 25px;
+}
+
+h1 {
+    color: #6565ec;
+}
+
+h2 {
+    color: #6565ec;
+}
+
+.review-score {
+    background-color: #6565ec;
+    padding: 10px;
+    
+}
+
+iframe { 
+    height: 300px;
+    aspect-ratio: 16/9;
+}
+
+
+
+
