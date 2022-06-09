@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Adicionar</title>
+</head>
+<body>
+    <header>
+        <div class="top-bar">  
+            <span>20% de desconto em todos os produtos!</span>
+        </div>
+        <div class="header-logo">
+            <a href="">
+                <img src="./img/OBJECTS.png" alt="">
+            </a>
+            <h2>Nome da Loja</h2>
+        </div>
+        <div class="header-nav">
+            <nav>
+                <ul>
+                    <a href=""><li>Contato</li></a>
+                    <a href=""><li>Registrar-se</li></a>
+                    <a href=""><li>Login</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="container-title">
+                <h2>Adicionar seu super-heroi</h2>
+                <p>Adicione seu personagem favorito completando as informaçes</p>
+            </div>
+            <form method="post">
+                <div class="container-inputs">
+                    <div>
+                        <div>
+                            <label for="nome">*Nome</label>
+                            <input type="text" name="nome" id="nome" required>
+                        </div>
+                        <div>
+                            <label for="dataNascimento">Data de Nascimento</label>
+                            <input type="date" name="dataNascimento" id="dataNascimento" required>
+                        </div>
+                        <div>
+                            <textarea name="descricao" id="descricao" placeholder="Descrição"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="especie">*Espécie</label>
+                            <select name="especie" id="especie">
+                                
+                                <option value="none">Escolha</option>
+                                <option value="humano">Humano</option>
+                                <option value="alienigena">Alienigena</option>
+                            </select>
+                        </div> 
+                        <div>
+                            <label for="imagem">Adicionar Foto</label>
+                            <input type="file" name="imagem" id="imagem">
+                        </div>
+                        <div class="check-poderes">
+                            <span>Poderes</span>
+                            <div>
+                                <input type="checkbox" name="poderes" id="voar">
+                                <label for="voar">Voar</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="poderes" id="superInt">
+                                <label for="superInt">Super Inteligência</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="poderes" id="visLaser">
+                                <label for="visLaser">Visão de raio laser</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="poderes" id="supRico">
+                                <label for="supRico">Super rico</label>
+                            </div>
+                        </div>
+                        <div class="tipo-personagem">
+                            <span>Tipo de personagem</span>
+                            <div>
+                                <input type="radio" name="tipo" id="heroi">
+                                <label for="heroi">Heroi/Heroína</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="tipo" id="vilao">
+                                <label for="vilao">Vilão/Vilã</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="Adicionar">
+            </form>
+            
+            
+        </div>
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados a FRONT END I</p>
+    </footer>
+</body>
+</html>
